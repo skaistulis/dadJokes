@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dad Jokes</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="container" id="firstcontainer">
+        <h3>See all jokes and punchlines</h3>
+        <div id="joke" id="jokefull"></div>
+        <button id="jokeBtn" class="btn">See All Jokes</button>
+      </div>
+    </div>
+    <div class="allcontainers">
+      <div class="container">
+        <h3>Get a random full dad joke</h3>
+        <div id="random" class="joke"></div>
+        <button id="randomBtn" class="btn">Get Another Joke</button>
+      </div>
+      <div class="container">
+        <h3>Choose a number to get a joke</h3>
+        <div id="chosen" class="joke"></div>
+        <input id="input" type="number" max="10" min="1" />
+        <button id="chooseBtn" class="btn btn2">Choose Number</button>
+      </div>
+      <div class="container">
+        <h3>Current amount of jokes we have</h3>
+        <div id="count" class="joke"></div>
+        <button id="countBtn" class="btn">Count All Jokes</button>
+      </div>
+      <div class="container">
+        <h3>Random question/random punchline</h3>
+        <div id="randomQ" class="joke"></div>
+        <button id="randomQBtn" class="btn">Random Joke & Punchline</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
